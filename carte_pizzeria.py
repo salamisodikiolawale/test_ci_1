@@ -26,10 +26,10 @@ class CartePizzeria:
     def nb_pizzas(self):
         return len(self.pizzas)
 
-    def add_pizza(self,pizza):
+    def add_pizza(self, pizza):
         self.pizzas.append(pizza)
 
-    def remove_pizza(self,name):
+    def remove_pizza(self, name):
         found = False
         for pos, inner_pizza in enumerate(self.pizzas):
             if inner_pizza.name == name:
