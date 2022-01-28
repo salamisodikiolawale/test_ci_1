@@ -2,6 +2,15 @@
 class CartePizzeriaException(Exception):
     pass
 
+
+
+class CartePizzeriaTEST(Exception):
+    pass
+
+
+class CartePizzeriaTEST(Exception):
+    pass
+
 class CartePizzeria:
 
     def __init__(self):
