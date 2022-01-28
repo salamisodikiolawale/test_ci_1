@@ -34,7 +34,7 @@ def test_carte_pizza_remove_pizza(mock_pizzas):
     pizza_name = "Mocked Pizza"
     pizza = Mock()
     pizza.name = pizza_name
-    mock_pizzas.return_value = [3]
+    mock_pizzas.return_value = [pizza]
     c.remove_pizza(pizza_name)
 
 @patch('carte_pizzeria.CartePizzeria.pizzas', new_callable=PropertyMock)
