@@ -4,8 +4,8 @@ class CartePizzeriaException(Exception):
 
 
 
-class CartePizzeriaTEST(Exception):
-    pass
+# class CartePizzeriaTEST(Exception):
+#     pass
 
 
 class CartePizzeriaTEST(Exception):
